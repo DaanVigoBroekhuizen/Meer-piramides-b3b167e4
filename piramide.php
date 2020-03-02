@@ -11,14 +11,14 @@
 
 <?php
     
-    for ($i = 1; $i <= 10; $i++) {
-        echo "<tr>";
-        for ($j = 1; $j <= $i; $j++) {
-            echo "<td height=40px width=40px bgcolor=#000></td>";
-        }
-        echo (PHP_EOL);
-        echo "</tr>";
+for ($i = 1; $i <= 10; $i++) {
+    echo "<tr>";
+    for ($j = 1; $j <= $i; $j++) {
+        echo "<td height=40px width=40px bgcolor=#000></td>";
     }
+    echo (PHP_EOL);
+    echo "</tr>";
+}
         
 
     
